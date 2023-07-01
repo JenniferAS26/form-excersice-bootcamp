@@ -1,4 +1,37 @@
+html {
+  min-height: 50%;
+  font-size: 62.5%;
+}
+
 body {
-  padding: 70px;
-  background-color: #0069d9;
+  margin: 10%;
+  padding: 0;
+  background-color: rgb(53, 53, 225);
+  min-height: 50%;
+  padding-bottom: 5rem;
+  font-size: 1.3rem;
+}
+body h1, body .label {
+  color: #ffffff;
+}
+body .label {
+  font-size: 2rem;
+  padding-right: 10px;
+  letter-spacing: 2px;
+}
+body #inputBuscador {
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  height: 30px;
+}
+body #btnBuscar {
+  border-radius: 15px;
+  border: none;
+  background-color: rgb(151, 181, 226);
+  padding: 8px;
+  width: 65px;
+  letter-spacing: 2px;
+  font-weight: bold;
 }/*# sourceMappingURL=main.css.map */
